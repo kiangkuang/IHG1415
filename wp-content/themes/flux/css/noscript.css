@@ -1,0 +1,19 @@
+/***** No Script Stylesheet *****/
+#mainmenu li:hover ul{
+display:block;		
+}
+
+
+#flickr-noscript{
+display:block;
+}
+
+#flickr-noscript p{
+width:80%;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-style:italic;
+font-size:14px;
+line-height:22px;
+margin:42px auto 0px auto;
+text-align:center;
+}

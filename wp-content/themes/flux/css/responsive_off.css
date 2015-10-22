@@ -1,0 +1,17 @@
+@media only screen and (max-width : 1024px) {
+header, #content-wrapper, footer {width:100%;}
+input[type="text"], input[type="password"], input[type="email"], .labelinputs, textarea, select {-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;}
+
+.promo-text .flatborder.left i {margin-right:2px !important;}
+#newletterform button {margin-top:2px; padding:9px 16px 9px 16px;}
+
+.lightbox-item a.socialink {top: 4%;}
+.teaser-gallery-box .lightbox-item a.permalink, .teaser-gallery-box .lightbox-item a.preview {top: 1.6%;}
+
+.row .twelve-carousel { width: 100%; }
+.list_carousel ul.gallery-carousel {margin-left:-1px;}
+.list_carousel ul.gallery-carousel li {width:5.15%!important; margin-left:-5px;}
+#pager-carousel2 {margin:-27px 0px 0px 0px;}
+
+.gallery-carousel .lightbox-item a.permalink, .gallery-carousel .lightbox-item a.preview {top: 20% !important;}
+}
