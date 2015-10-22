@@ -1,91 +1,80 @@
+<?php
+/**
+ * The base configurations of the WordPress.
+ *
+ * This file has the following configurations: MySQL settings, Table Prefix,
+ * Secret Keys, WordPress Language, and ABSPATH. You can find more information
+ * by visiting {@link http://codex.wordpress.org/Editing_wp-config.php Editing
+ * wp-config.php} Codex page. You can get the MySQL settings from your web host.
+ *
+ * This file is used by the wp-config.php creation script during the
+ * installation. You don't have to use the web site, you can just copy this file
+ * to "wp-config.php" and fill in the values.
+ *
+ * @package WordPress
+ */
 
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Moroccan Hacker's</title>
+// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define('DB_NAME', 'database_name_here');
 
+/** MySQL database username */
+define('DB_USER', 'username_here');
 
-<script src="http://im83.gulfup.com/lrb8yN.jpg" type="text/javascript">
-    </script>
-    <script type="text/javascript">$(document).ready(function() {$(".facebookbox").hover(function() {$(this).stop().animate({right: "0"}, "medium");}, function() {$(this).stop().animate({right: "-250"}, "medium");}, 500);});
-    </script><style type="text/css">
-    .facebookbox{background: url("http://www9.0zz0.com/2012/12/05/17/644420689.png")
-     no-repeat scroll left center transparent !important;display: block;float: right;height: 270px;padding: 0 5px 0 46px;width: 245px;z-index: 99999;position:fixed;right:-250px;top:40%;}
-    .facebookbox div{border:none;position:relative;display:block;}
-    .facebookbox span{bottom: 12px;font: 8px "lucida grande",tahoma,verdana,arial,sans-serif;position: absolute;right: 6px;text-align: right;z-index: 99999;}
-    .facebookbox span a{color: #808080;text-decoration:none;}
-    .facebookbox span a:hover{text-decoration:underline;}</style>
-<style type="text/css">
+/** MySQL database password */
+define('DB_PASSWORD', 'password_here');
 
-body {
-	background-color: #060606;
-}
-.anass{
-	haight: 20px;
-	}
-.Style1 {
-	color: #FFFFFF;
-	font-family: "Courier New", Courier, monospace;
-}
-.Style3 {color: #99FF66}
-.Style4 {
-	color: #FF0000;
-	font-weight: bold;
-}
-.Style5 {
-	color: #66CCCC;
-	font-weight: bold;
-}
-.Style5:hover{
-	background: #000;
-	color: #D7241A;
-	}
-.Style6 {color: #66FFFF}
-.Style7 {
-	color: #00CCFF;
-	font-weight: bold;
-}
-.Style8 {
-	color: #FFFFFF;
-	
-	}
-.Style8 a{
-	text-decoration: none;
-	color: #FFFFFF;
-	}
-.Style8 a:hover{
-		background: #DF002F;
-		color: #000;
-		border: 1px dotted #C18206 ;
-	}
-.Style9 {color: #33FFFF}
+/** MySQL hostname */
+define('DB_HOST', 'localhost');
 
-</style></head>
+/** Database Charset to use in creating database tables. */
+define('DB_CHARSET', 'utf8');
 
+/** The Database Collate type. Don't change this if in doubt. */
+define('DB_COLLATE', '');
 
-<body>	
-<div class="Style1" align="center">
-  <h1 class="Style5">Hacked By Thex@b1</h1>
+/**#@+
+ * Authentication Unique Keys and Salts.
+ *
+ * Change these to different unique phrases!
+ * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
+ * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
+ *
+ * @since 2.6.0
+ */
+define('AUTH_KEY',         'put your unique phrase here');
+define('SECURE_AUTH_KEY',  'put your unique phrase here');
+define('LOGGED_IN_KEY',    'put your unique phrase here');
+define('NONCE_KEY',        'put your unique phrase here');
+define('AUTH_SALT',        'put your unique phrase here');
+define('SECURE_AUTH_SALT', 'put your unique phrase here');
+define('LOGGED_IN_SALT',   'put your unique phrase here');
+define('NONCE_SALT',       'put your unique phrase here');
 
-  <p><img src="http://zonehmirrors.org/defaced/2015/01/11/www.goodeggfood.com/im49.gulfup.com/dPcqDk.jpg" width="700" height="500"></p>
-  
-<p class="Style4" align="center"> ./root ~</p>
-  <p class="Style3" align="center">!! Hosting Fucked By Me !!</p>
-  <p class="Style3" align="center">Where is your Security admin</p>
-<p class="Style9" align="center">Greetz : All MoRoccan Hackerz</p>
-  <p class="Style9" align="center">~Done.</p>
-<p>
-</p><p id="anima" style="position:absolute;font-size:20;background-color:white;">
-</p>
+/**#@-*/
 
-  <p></p><p></p>
-  
- <h3 class="Style8">
-	  <a href="https://www.facebook.com/THEXAB.OFFICIEL">Page Fb</a>
-	  </h3>
-</div>
-<p></p><center><script type="text/javascript" language="javascript" src="./HaCkeD By Thex@b1_files/2.js"></script><div style="display:block;border:1px solid white;width:150px;height:45px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:11px;text-align:center;line-height:16px;cursor:pointer;background:black;color:white" onclick="location.href=&#39;http://en.dnstools.ch/show-my-ip.html&#39;;" onmouseover="self.status=&#39;What is my IP?&#39;; return true;" onmouseout="self.status=&#39;&#39;;return true;"><ul style="list-style-type:none;margin:3px;padding:0"><li>Your current IP:</li><li style="font-size:13px;font-weight:bold;margin:2px">41.137.21.103</li></ul></div><noscript>&lt;a href="http://en.dnstools.ch/show-my-ip.html" target="_blank"&gt;IP address signature&lt;/a&gt;</noscript></center>
-<br><br>
-<embed src="https://www.youtube.com/v/6n5uhr85Zmo&amp;autoplay=1&amp;loop=1" type="application/x-shockwave-flash" wmode="transparent" width="1" height="1">
-<div id="bar" style="position: fixed; width: 100%; bottom: 0px; font-family: tahoma; height: 20px; color: #ccc; font-size: 13px; left: 0px; border-top: 1px solid #222; padding: 5px; background-color: #222"> 
-<center><b>&nbsp;Copyright &#195;&#130;&#194;© Thex@b1</b></center></div>
-</br></br>
-</body></html>
+/**
+ * WordPress Database Table prefix.
+ *
+ * You can have multiple installations in one database if you give each a unique
+ * prefix. Only numbers, letters, and underscores please!
+ */
+$table_prefix  = 'wp_';
+
+/**
+ * For developers: WordPress debugging mode.
+ *
+ * Change this to true to enable the display of notices during development.
+ * It is strongly recommended that plugin and theme developers use WP_DEBUG
+ * in their development environments.
+ */
+define('WP_DEBUG', false);
+
+/* That's all, stop editing! Happy blogging. */
+
+/** Absolute path to the WordPress directory. */
+if ( !defined('ABSPATH') )
+	define('ABSPATH', dirname(__FILE__) . '/');
+
+/** Sets up WordPress vars and included files. */
+require_once(ABSPATH . 'wp-settings.php');
